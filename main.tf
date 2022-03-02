@@ -7,15 +7,7 @@ terraform {
   }
 }
 
-
-
-resource "null_resource" "example" {
-  triggers = {
-    value = "A example resource that does nothing!"
-  }
-}
-
-output "primary_subnet_id" {
-  description = "Primary Region Subnet ID: "
-  value = var.Test123
+provider "aws" {
+  region  = "us-east-1"
+  version = "~> 3.37"
 }
