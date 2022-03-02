@@ -13,3 +13,6 @@ resource "null_resource" "example" {
   }
 }
 
+output "aaa"{
+  value ="aaa"
+}
