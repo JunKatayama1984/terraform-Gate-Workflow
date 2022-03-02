@@ -13,6 +13,11 @@ terraform {
   }
 }
 
+credentials "app.terraform.io" {
+  token = ${{ secrets.TF_API_TOKEN }}
+}
+
+
 provider "aws" {
   region  = "us-east-1"
 }
