@@ -6,3 +6,11 @@ terraform {
     }
   }
 }
+
+
+
+output "primary_subnet_id" {
+  description = "Primary Region Subnet ID: "
+  value = var.Test123
+}
+
