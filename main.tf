@@ -14,6 +14,7 @@ resource "null_resource" "example" {
   }
 }
 
-output "aaa"{
-  value ="aaa"
+output "primary_subnet_id" {
+  description = "Primary Region Subnet ID: "
+  value = var.Test123
 }
