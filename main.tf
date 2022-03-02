@@ -5,5 +5,4 @@ terraform {
       name = "Challenge5"
     }
   }
-  version = "1.1.6"
 }
